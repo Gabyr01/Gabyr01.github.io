@@ -1,6 +1,6 @@
 
 
-<link rel="stylesheet" href="styles.css">
+<!-- <link rel="stylesheet" href="styles.css"> -->
 
 ## Welcome to my portfolio c:
 
@@ -8,7 +8,8 @@
 - [Resume](#resume) 
 - [Contact](#contact) -->
 <div class="navigation">
-  <a href="#about">About Me</a> | <a href="#resume">Resume</a> | <a href="#contact">Contact</a>
+  <a href="#about">About Me</a> <a href="#resume">Resume</a>
+  <a href="#contact">Contact</a>
 </div>
 
 ## About Me
