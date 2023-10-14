@@ -21,6 +21,10 @@ body {
     width: 350px;
     height: 350px;
 }
+/* Add margin to the left of the navigation when it's open */
+.navbar-expand-lg .navbar-collapse {
+    margin-left: 20px; /* Adjust this value to your desired margin size */
+}
 
 /*  */
 #contact {
