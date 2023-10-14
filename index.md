@@ -21,12 +21,12 @@ Hi! I'm Gabriela Rojas, a passionate software engineer on a mission to embrace t
 
 ## Resume
 
-Here, you can find my detailed resume. Feel free to [download my resume](your-resume.pdf).
+Feel free to [download my resume](your-resume.pdf).
 
 ## Contact
 
 If you'd like to get in touch, you can reach me at:
 
-- Email: your.email@example.com
+- Email: gabrielarojas7447@gmail.com
 - LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/gabriela00rojas/)
 - GitHub: [GitHub Profile](https://github.com/Gabyr01)
