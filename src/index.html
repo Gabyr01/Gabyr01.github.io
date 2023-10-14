@@ -2,56 +2,136 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <title>Gaby's Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="about-me">
-            <h1>About Me</h1>
-            <p>Insert your bio here.</p>
-        </section>
-        <section id="projects">
-            <h1>Projects</h1>
-            <ul>
-                <li>
-                    <h2>Project 1</h2>
-                    <p>Description of project 1.</p>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Gabriela Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
                 </li>
-                <li>
-                    <h2>Project 2</h2>
-                    <p>Description of project 2.</p>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
                 </li>
-                <li>
-                    <h2>Project 3</h2>
-                    <p>Description of project 3.</p>
+                <li class="nav-item">
+                    <a class="nav-link" href="#resume">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
-        </section>
-        <section id="contact">
-            <h1>Contact</h1>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2021 My Portfolio</p>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid" id="home">
+        <div class="container">
+            <h1 class="display-4">Hi, I'm Gabriela Rojas</h1>
+            <p class="lead">Graduating May 2024 | Bachelor of Science in Software Engineering</p>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About Me</h2>
+                    <p>Hi! I'm Gabriela Rojas, a passionate software engineer on a mission to embrace the ever-evolving world of tech. As a first-generation college student and a proud Latina in tech, I am dedicated to contributing my skills to make a difference through innovative projects and bringing diversity to the industry. With a Bachelor's degree in Software Engineering on the horizon (May 2024) I am seeking an entry-level opportunity that allows me to grow, expand my skills, and be part of something extraordinary. I want to be part of a team where innovation is the norm, and each day is an opportunity to learn and contribute.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/Headshot.png" alt="Profile Picture" class="img-fluid rounded-circle">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <p>Click the button below to view my resume.</p>
+            <button id="viewResume" class="btn btn-primary">View Resume</button>
+        </div>
+    </section>
+    
+    <script>
+        document.getElementById("viewResume").addEventListener("click", function() {
+            window.open("https://drive.google.com/file/d/1mQ0l9c8fRsVaT5DMvelMLoOps8vRXS-P/view?usp=sharing", "_blank");
+        });
+    </script>
+    
+    
+
+    <!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <ul class="list-unstyled">
+            <li>
+                <a href="mailto:gabrielarojas7447@gmail.com">
+                    <i class="fas fa-envelope"></i> <strong>Email:</strong> gabrielarojas7447@gmail.com
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/gabriela00rojas" target="_blank">
+                    <i class="fab fa-linkedin"></i> <strong>LinkedIn</strong>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/Gabyr01" target="_blank">
+                    <i class="fab fa-github"></i> <strong>GitHub</strong>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="bg-light py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2023 Gabriela's Portfolio</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-inline text-md-right">
+                        <li class="list-inline-item">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#resume">Resume</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
+   
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-3gBR9vEXON0QaWag9ciMqf6awHgjhZx38hD4Y5LunbCDs1aML4dUoj4mejC4UI4y" crossorigin="anonymous"></script>
+ 
 </body>
 </html>

@@ -1,0 +1,60 @@
+body {
+    /* background-color: rgb(255, 255, 255); */
+    background-color: pink; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(255, 124, 251));
+
+}
+/* nav { */
+    /* background-color: rgb(255, 255, 255); */
+/* }  */
+
+.navbar-nav a:hover {
+    background-color: rgba(255, 0, 234, 0.055); 
+    color: white; /* Change the text crgb(243, 156, 255)r for better visibility */
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+/* Adjust the width and height as needed */
+.img-fluid {
+    width: 350px;
+    height: 350px;
+}
+
+/*  */
+#contact {
+    font-family: 'Roboto', sans-serif;  
+    color: rgb(255, 27, 172); /* A professional text color (e.g., black or dark gray) */
+    padding: 30px; /* Add some spacing around the contact section */
+    text-align: center;
+    
+
+    
+
+}
+
+#contact h2 {
+    font-weight: bold;
+    font-size: 24px; /* Increase the font size for the section title */
+    margin-bottom: 10px; /* Add space between the title and contact info */
+}
+
+#contact ul {
+    list-style: none; /* Remove bullet points from the list */
+}
+
+#contact ul li {
+    font-size: 16px; /* Adjust the font size for the contact info */
+    margin-bottom: 10px; /* Add space between each contact item */
+}
+
+#contact a {
+    text-decoration: none; /* Remove underlines from links */
+    color: rgb(255, 27, 172); /* Use a subtle blue color for links */
+}
+
+#contact a:hover {
+    text-decoration: underline; /* Add underlines on hover for links */
+    color: rgb(255, 0, 212);
+}
