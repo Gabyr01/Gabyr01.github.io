@@ -1,0 +1,46 @@
+/* Add a cute and girly background color */
+body {
+    background-color: #ffc0cb; /* Light Pink */
+}
+
+/* Customize the header styles */
+header {
+    background-color: #ff69b4; /* Hot Pink */
+    color: #fff; /* White */
+    text-align: center;
+}
+
+/* Style the links in the navigation */
+nav ul li a {
+    color: #ff69b4; /* Hot Pink */
+}
+
+/* Customize the section backgrounds and fonts */
+section {
+    background-color: #fff; /* White */
+    font-family: "Comic Sans MS", cursive;
+}
+
+/* Style the footer */
+footer {
+    background-color: #ff69b4; /* Hot Pink */
+    color: #fff; /* White */
+    text-align: center;
+}
+
+/* Add some rounded corners to elements */
+header, nav, section, footer {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Customize the link styles */
+a {
+    color: #ff69b4; /* Hot Pink */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
