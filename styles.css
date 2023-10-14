@@ -4,6 +4,9 @@ body {
     background-color: rgb(253, 224, 248); /* Light Pink */
     Color: #cc31b2;
 }
+section h1, section h2, section h3, section h4, section h5, section h6 {
+    Color: #cc31b2; /* Black */
+}
 
 /* Customize the header styles */
 header {
