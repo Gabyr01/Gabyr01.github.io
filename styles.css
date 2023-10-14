@@ -1,29 +1,31 @@
-/* Add a cute and girly background color */
+
+/* Add a pink color scheme */
 body {
-    background-color: #ffc0cb; /* Light Pink */
+    background-color: rgb(253, 224, 248); /* Light Pink */
+    Color: #cc31b2;
 }
 
 /* Customize the header styles */
 header {
-    background-color: #ff69b4; /* Hot Pink */
+    background-color: #f7077f; /* Hot Pink */
     color: #fff; /* White */
     text-align: center;
 }
 
 /* Style the links in the navigation */
 nav ul li a {
-    color: #ff69b4; /* Hot Pink */
+    color: #ff3198; /* Hot Pink */
 }
 
 /* Customize the section backgrounds and fonts */
 section {
-    background-color: #fff; /* White */
-    font-family: "Comic Sans MS", cursive;
+    background-color: #8b0066; /* White */
+    /* font-family: "Comic Sans MS", cursive; */
 }
 
 /* Style the footer */
 footer {
-    background-color: #ff69b4; /* Hot Pink */
+    background-color: #ff3198;/* Hot Pink */
     color: #fff; /* White */
     text-align: center;
 }
@@ -46,6 +48,8 @@ a:hover {
 }
 
 /* *** */
+
+
 /* style.css */
 .navigation {
     display: flex;
