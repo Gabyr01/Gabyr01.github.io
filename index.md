@@ -2,7 +2,7 @@
 
 <!-- <link rel="stylesheet" href="styles.css"> -->
 
-## Welcome to my portfolio c:
+## Welcome to my portfolio 
 
 <!-- - [About Me](#about) 
 - [Resume](#resume) 
