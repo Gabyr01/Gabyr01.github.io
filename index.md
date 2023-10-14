@@ -1,10 +1,15 @@
-## Gabriela Rojas
 
-<link rel="stylesheet" href="style.css">
 
-### welcome to my portfolio
+<link rel="stylesheet" href="styles.css">
 
-- [About Me](#about) - [Resume](#resume) - [Contact](#contact)
+## Welcome to my portfolio c:
+
+<!-- - [About Me](#about) 
+- [Resume](#resume) 
+- [Contact](#contact) -->
+<div class="navigation">
+  <a href="#about">About Me</a> | <a href="#resume">Resume</a> | <a href="#contact">Contact</a>
+</div>
 
 ## About Me
 

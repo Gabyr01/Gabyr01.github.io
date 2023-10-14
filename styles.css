@@ -44,3 +44,13 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* *** */
+/* style.css */
+.navigation {
+    display: flex;
+  }
+  
+  .navigation a {
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
