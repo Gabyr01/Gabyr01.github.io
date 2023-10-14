@@ -1,12 +1,10 @@
 ## Gabriela Rojas
 
+<link rel="stylesheet" href="style.css">
 
-### Graduating May 2024 | Bachelor of Science in Software Engineering
-#### This is just the beginning ##### it only gets better from here
+### welcome to my portfolio
 
-- [About Me](#about)
-- [Resume](#resume)
-- [Contact](#contact)
+- [About Me](#about) - [Resume](#resume) - [Contact](#contact)
 
 ## About Me
 
